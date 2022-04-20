@@ -1,0 +1,121 @@
+
+Do you event Link, bro? [Introductory][No-Code][2-min read]
+
+Click here to read in English:
+Clic içi pour lire en français:
+
+
+—ENGLISH—
+
+I know your time is valuable. This is why this article is purposely short, so you can get in and out quick. Here, I’ll explain what Chainlink really is because I kid you not!..: Chainlink is much more than the spoon-feeding the Bitcoin price to your app. Future articles will go more in-depth into Chainlink features as well as Chainlink 2.0. 
+
+TL,DR
+Chainlink allows you to get off-chain data, monetise your data or API, safely generate random numbers, automate smart contract executions, off-load computation and save you money. Adding to all of that, soon you will be able to communicate and initiate actions across multiple networks.
+
+Now, let’s go over a few points:
+What problems Chainlink is resolving,
+What tools Chainlink is currently offering,
+Existing use-cases where Chainlink is used
+
+What problems Chainlink is resolving?
+1-  The obvious one: getting external data. Your app needs to know the temperature in Alaska [https://docs.chain.link/docs/google-weather/], the price of Bitcoin, which football team won the match last night, whatever data it is you need Chainlink creates a bridge between the source of the information and your application. 
+
+2- Creating random numbers: you might be surprised to learn that there is actually a ton of apps that require random numbers in their code, either for core functionalities or for security, in all industries: banking, gaming, designing, etc.. but you can not create a safe random number on-chain because of the consensus mechanism: all nodes in the network need to agree on the value of that number, which means they would all have to create it the same way with the same inputs. That would make it quite predictable ay?
+
+3- Reducing gas cost: on-chain computation is expensive, so to lower the bill, Chainlink brings all that heavy lifting off-chain, where it can perform gasless computation.
+
+4- Allowing transfer of assets and communication between smart contracts stored in different blockchains. Now, this one is more advanced,  we enter the “interoperability and composition capabilities” territory so more on that one in a future article. 
+But in a nutshell, Chainlink is working on a fast and secure system that would allow you or your application to send and receive any asset from any blockchain and beyond that, you could assemble pieces of code taken from multiple blockchains into your smart contract. 
+
+What tools Chainlink is currently offering?
+
+Those Issues have led to the creation of the following features:
+-Market and Data Feeds - not only can you ask Chainlink for data but you can also make a good buck by selling your own data and connecting your API to the network,
+-Modular External Adapters for connecting to any off-chain resource,
+-VRF (Verifiable Random Function) - to provide verifiable randomness,
+-Keepers - to securely automate your smart contracts,
+-Proof of Reserve (PoR) - to monitor reserves of assets,
+-Cross-Chain Bridging (CCIP) - to send messages, transfer tokens, and initiate actions across multiple networks.
+-Off-Chain Computation services (Fair Sequencing Services, DECO, Arbitrum Rollups, and more)
+
+More details on all those features in future articles.
+
+Existing use-cases where Chainlink is used
+Aave uses Price Feeds to ensure proper collateralization,
+SWIFT used Chainlink oracles to aggregate interest rates from five major banks, fetch debt score data from S&P to generate interest payments,
+TrustToken uses Chainlink Proof of Reserve to provide smart contracts proof of the off-chain fiat reserves backing the TUSD stablecoin,
+Trey Mancini’s NFTs use Chainlink VRF to randomly assign additional utility
+Visor Finance uses Keepers to rebalance liquidity position on Uniswap V3 when predefined thresholds are crossed
+Synthetic also uses Keepers to automate the distribution of exchange fees and staking rewards each week.
+And many many more…
+
+That is just a very short list of use cases, if you would like more use cases, click right here -> https://blog.chain.link/44-ways-to-enhance-your-smart-contract-with-chainlink/
+
+Hopefully, you enjoy this introduction. Like and comment if you would like more of this. Cheers.
+
+—FRANCAIS—
+Tu fais du Link, mon frère ? [Introductory] [No-Code] [2-min read]
+
+Je sais que votre temps est précieux. C'est pourquoi cet article est volontairement court, afin que vous puissiez entrer et sortir rapidement. Ici, je vais expliquer ce qu'est vraiment Chainlink parce que je ne plaisante pas ... : Chainlink est bien plus qu'un moyen d'envoyer le prix des bitcoins à votre application. Les prochains articles traiteront plus en profondeur des fonctionnalités de Chainlink ainsi que de Chainlink 2.0. 
+
+TL,DR
+Chainlink vous permet d'obtenir des données hors chaîne, de monétiser vos données ou votre API, de générer des nombres aléatoires en toute sécurité, d'automatiser les exécutions de contrats intelligents, de décharger les calculs et de vous faire économiser de l'argent. En plus de tout cela, vous serez bientôt en mesure de communiquer et de lancer des actions sur plusieurs réseaux.
+
+Maintenant, passons en revue quelques points :
+Quels sont les problèmes que Chainlink résout,
+Quels sont les outils que Chainlink offre actuellement,
+Les cas d'utilisation existants où Chainlink est utilisé.
+
+Quels problèmes Chainlink résout-il ?
+1- Le problème évident : obtenir des données externes. Votre application a besoin de connaître la température en Alaska [https://docs.chain.link/docs/google-weather/], le prix du bitcoin, l'équipe de football qui a gagné le match hier soir, quelles que soient les données dont vous avez besoin, Chainlink crée un pont entre la source de l'information et votre application. 
+
+2- Création de nombres aléatoires : vous pourriez être surpris d'apprendre qu'il y a en fait une tonne d'applications qui ont besoin de nombres aléatoires dans leur code, soit pour des fonctionnalités de base, soit pour la sécurité, dans tous les secteurs : banque, jeux, conception, etc. mais vous ne pouvez pas créer un nombre aléatoire sûr sur la chaîne à cause du mécanisme de consensus : tous les nœuds du réseau doivent être d'accord sur la valeur de ce nombre, ce qui signifie qu'ils devraient tous le créer de la même manière avec les mêmes entrées. Cela le rendrait assez prévisible, n'est-ce pas ?
+
+3- Réduire le coût du gaz : le calcul sur la chaîne est coûteux, donc pour réduire la facture, Chainlink apporte tout ce qui est lourd hors de la chaîne, où il peut effectuer des calculs sans gaz.
+
+4- Permettre le transfert d'actifs et la communication entre les contrats intelligents stockés dans différentes blockchains. Maintenant, celui-ci est plus avancé, nous entrons dans le territoire de "l'interopérabilité et les capacités de composition", donc plus sur ce sujet dans un prochain article. 
+Mais en bref, Chainlink travaille sur un système rapide et sécurisé qui vous permettrait, à vous ou à votre application, d'envoyer et de recevoir n'importe quel actif de n'importe quelle blockchain et, au-delà, vous pourriez assembler des morceaux de code provenant de plusieurs blockchains dans votre contrat intelligent. 
+
+Quels outils Chainlink propose-t-il actuellement ?
+
+Ces enjeux ont conduit à la création des fonctionnalités suivantes :
+-Marché et flux de données - non seulement vous pouvez demander des données à Chainlink, mais vous pouvez également gagner de l'argent en vendant vos propres données et en connectant votre API au réseau,
+-Adaptateurs externes modulaires pour se connecter à n'importe quelle ressource hors chaîne,
+-VRF (Verifiable Random Function) - pour fournir un caractère aléatoire vérifiable,
+-Keepers - pour automatiser en toute sécurité vos contrats intelligents,
+-Preuve de réserve (PoR) - pour surveiller les réserves d'actifs,
+-Cross-Chain Bridging (CCIP) - pour envoyer des messages, transférer des jetons et lancer des actions sur plusieurs réseaux.
+-Services de calcul hors chaîne (Fair Sequencing Services, DECO, Arbitrum Rollups, etc.).
+
+Plus de détails sur toutes ces fonctionnalités dans de futurs articles.
+
+Cas d'utilisation existants où Chainlink est utilisé
+Aave utilise les Price Feeds pour assurer une collatéralisation adéquate,
+SWIFT a utilisé les oracles Chainlink pour agréger les taux d'intérêt de cinq grandes banques, récupérer les données de notation de la dette de S&P pour générer les paiements d'intérêts,
+TrustToken utilise Chainlink Proof of Reserve pour fournir aux contrats intelligents la preuve des réserves en fiat hors chaîne soutenant le stablecoin TUSD,
+Les NFTs de Trey Mancini utilisent Chainlink VRF pour attribuer aléatoirement une utilité supplémentaire.
+Visor Finance utilise Keepers pour rééquilibrer la position de liquidité sur Uniswap V3 lorsque des seuils prédéfinis sont franchis.
+Synthetic utilise également Keepers pour automatiser la distribution des frais d'échange et des récompenses de jalonnement chaque semaine.
+Et bien d'autres encore...
+
+Ce n'est qu'une courte liste de cas d'utilisation, si vous souhaitez en savoir plus, cliquez ici -> https://blog.chain.link/44-ways-to-enhance-your-smart-contract-with-chainlink/
+
+Nous espérons que cette introduction vous a plu. Aimez et commentez si vous voulez en savoir plus. À la vôtre.
+
+
+
+
+
+
+
+Monetize your API: https://chain.link/ecosystem/data-providers?_ga=2.113490951.1211713749.1650288453-1952880501.1648453737
+
+Traduit avec www.DeepL.com/Translator (version gratuite)
+
+
+
+
+
+
+
+Monetize your API: https://chain.link/ecosystem/data-providers?_ga=2.113490951.1211713749.1650288453-1952880501.1648453737
