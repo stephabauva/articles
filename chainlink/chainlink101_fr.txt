@@ -8,6 +8,7 @@ Chainlink vous permet d'obtenir des données hors chaîne, de monétiser vos don
 Maintenant, passons en revue quelques points :
 Quels sont les problèmes que Chainlink résout,
 Quels sont les outils que Chainlink offre actuellement,
+Qu'en est-il du jeton LINK ?
 Les cas d'utilisation existants où Chainlink est utilisé.
 
 Quels problèmes Chainlink résout-il ?
@@ -32,6 +33,11 @@ Ces enjeux ont conduit à la création des fonctionnalités suivantes :
 -Services de calcul hors chaîne (Fair Sequencing Services, DECO, Arbitrum Rollups, etc.).
 
 Plus de détails sur toutes ces fonctionnalités dans de futurs articles.
+
+Qu'en est-il du jeton LINK ?
+Vous avez déjà entendu parler de l'ETH ? C'est un jeton construit avec le protocole ERC20. Eh bien, le jeton LINK utilise le protocole ERC677 qui est juste une extension de l'ERC20 pour permettre le transfert de données. LINK est utilisé pour payer les opérateurs de nœuds pour récupérer les données que vous voulez et ces opérateurs de nœuds doivent également déposer quelques LINKs pour participer au réseau.
+
+Traduit avec www.DeepL.com/Translator (version gratuite)
 
 Cas d'utilisation existants où Chainlink est utilisé
 Aave utilise les Price Feeds pour assurer une collatéralisation adéquate,
